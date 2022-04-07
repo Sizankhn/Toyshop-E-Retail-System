@@ -6,8 +6,8 @@ from PIL import ImageTk
 from tkinter import messagebox as msg
 # ============================================================================================
 # =================================== FILE IMPORTS ===========================================
-from Feature_01.F1_login import F1Feature
-from Feature_02.F2_catalogue import F2Feature
+from AdministrationFeatures.F1_login import F1Feature
+from CustomerFeatures.F2_catalogue import F2Feature
 # ==================================== OTHERS ================================================
 import time
 
@@ -75,7 +75,7 @@ class Home(tk.Frame):
 
 class LoginOrSignup(tk.Frame):
     """
-    F1 Feature
+    Administration Features
     """
 
     def __init__(self, parent, controller):
@@ -87,7 +87,7 @@ class LoginOrSignup(tk.Frame):
 
 class Catalogue(tk.Frame):
     """
-    F2 Feature
+    Customer Features
     """
 
     def __init__(self, parent, controller):
