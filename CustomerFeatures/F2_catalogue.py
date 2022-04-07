@@ -8,8 +8,8 @@ import tkinter.font as font
 from tkinter import colorchooser
 # =================================================================================================
 # ======================== FILE IMPORTS ===========================================================
-from Feature_02.scrollbar import XScrollbar, YScrollbar
-from Feature_02.F2_database import fetch_name, fetch_price, toyprice, toydescrip, fetch_customer, \
+from CustomerFeatures.scrollbar import XScrollbar, YScrollbar
+from CustomerFeatures.F2_database import fetch_name, fetch_price, toyprice, toydescrip, fetch_customer, \
     fetch_rating, fetch_review, fetch_date, check_stock
 # =================================================================================================
 from datetime import date
