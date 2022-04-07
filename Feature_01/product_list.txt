@@ -1,0 +1,7 @@
+~~Product Status~~ 
+Product ID:  
+Product Name:  
+Category ID:  
+Quantity:  
+Price:  
+----------------------------------------------------------------
